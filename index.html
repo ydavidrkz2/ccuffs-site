@@ -16,7 +16,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-nav-scroll navbar-expand-lg" style="background-color: #2d2d2d; height: 10%;">
+            <nav class="navbar navbar-nav-scroll navbar-expand-lg" style="background-color: #2d2d2d; min-height: 10%;">
                 <div class="container-fluid mx-auto max-w-7xl">
                   <a class="navbar-brand" href="https://cc.uffs.edu.br/intranet/dashboard">
                     <img src="imagens/cc-logo-icon-bg-transparent.png" width="30px" height="30px">
@@ -37,7 +37,7 @@
                 </div>
               </nav>
         </header>
-        <div style="height: 200%; width: 100%;">
+        <div style="height: 80%; width: 100%;">
 
         </div>
         <footer style="background-color: #2d2d2d; margin-bottom: 0; height: 10%;">
@@ -50,6 +50,11 @@
               </table>
         </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script>thisYear();</script>  
+    <script>
+    function thisYear(){
+        let year = new Date().getFullYear();
+        document.getElementById("year").innerHTML = year;
+    }
+    thisYear();</script>  
     </body>
 </html>

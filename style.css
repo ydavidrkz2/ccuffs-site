@@ -22,7 +22,6 @@ body {
 .active {
     color: #fcae17 !important;
     font-weight: 400;
-    border-bottom: 2px solid #adb5bd;
 }
 
 .ml-5 {
