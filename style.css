@@ -18,3 +18,13 @@
 body {
     background-color: #343433;
 }
+
+.active {
+    color: #fcae17 !important;
+    font-weight: 400;
+    border-bottom: 2px solid #adb5bd;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
