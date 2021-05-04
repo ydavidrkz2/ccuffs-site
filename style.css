@@ -27,3 +27,7 @@ body {
 .ml-5 {
     margin-left: 5px;
 }
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
