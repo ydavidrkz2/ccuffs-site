@@ -76,3 +76,14 @@ body {
     line-height: 3rem;
     text-shadow: 2px 2px #525252;
 }
+
+.main-info {
+    color: #FFF;
+    text-align: left;
+    line-height: 2rem;
+    animation-duration: 6s;
+}
+
+.main-info h5 {
+    font-weight: 300;
+}
