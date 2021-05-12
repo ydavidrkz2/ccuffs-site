@@ -11,7 +11,7 @@
 
 #nav-conteudo{font-size: .8rem;}
 
-#main{height: 150%; width: 100%;}
+#main{height: 350%; width: 100%;}
 
 .post-main{height: 100%; width: 75%; background-color: #444444;}
 
@@ -39,7 +39,7 @@ body {
 }
 #main-head{
     width: auto;
-    height: 45%;
+    min-height: 20%;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 80%, rgba(68,68,68,1) 100%);
 }
@@ -50,7 +50,8 @@ body {
 
 .wrap {
     width: 100%;
-    overflow: hidden;
+    font-size: 4vw;
+    overflow: auto;
 }
 
 @keyframes fade-down {
@@ -62,7 +63,7 @@ body {
 }
 
 .icons img{
-    margin: 30px 10px;
+    margin: 30px 7px;
     height: 30;
 }
 
@@ -86,4 +87,10 @@ body {
 
 .main-info h5 {
     font-weight: 300;
+}
+
+@media(max-width: 1015px) {
+    .main-info{
+        width:100%;
+    }
 }
